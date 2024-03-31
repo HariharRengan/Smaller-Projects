@@ -1,0 +1,49 @@
+<!--Interface-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reminders</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	<style> 
+	body {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	#tpost {
+		border: solid;
+		background-color: whitesmoke;
+	}
+	</style>
+  </head>
+  <body>
+    <h1>{{ us }}</h1>
+	<form action="/main" method="POST">
+	<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Task name</label>
+  <input type="text" class="form-control" id="exampleFormControlInput1 title" name="title" placeholder="Name" maxlength=20>
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">What needs to be done</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1 desc" name="desc" rows="3" maxlength=200></textarea><br>
+  <input type="submit" class="btn btn-success" value="Add task"></input>
+</div>
+</form>
+{% for i in tasks %}
+<div id="tpost">
+<h3>{{ i[0] }}</h3>
+<h5>{{ i[1] }}</h5>
+<hr>
+    <form action="{{ url_for('delete', id=i[0]) }}" method="POST">
+        <input type="submit" class="btn btn-danger" value="Delete Post"
+                onclick="return confirm('Are you sure you want to delete this post?')">
+    </form>
+</div>
+<br>
+
+{% endfor %}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>

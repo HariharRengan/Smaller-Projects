@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Try basic flask</title>
+    <style>
+	.Post {
+		border-style: solid;
+		font-family: sans-serif;
+	}
+	</style>
+  </head>
+  <body>
+  <form action='/' method='POST'>
+	<input type="text" name="title" id="title" placeholder="Title">
+	<input type="text" name="desc" id="desc" placeholder="Description">
+	<input type="submit">
+  </form>
+  {% for i in posts %}
+  <div class="Post">
+  <h2><b>{{ i[0] }}</b></h2>
+  <h3>{{ i[1] }}</h3>
+  </div>
+  {% endfor %}
+  </body>
+</html>
