@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class funny {    
+public class LCSMergeSort {    
     public static void main(String args[]) {
         int[] res = mergesort(new int[]{3, 2, 1, 4, 5, 6, 7, 8, 9, 10});
         for (int i: res) {
