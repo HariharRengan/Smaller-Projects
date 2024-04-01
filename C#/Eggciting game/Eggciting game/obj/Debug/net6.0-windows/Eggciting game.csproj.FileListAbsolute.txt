@@ -1,0 +1,18 @@
+C:\Users\harihar\source\repos\Eggciting game\Eggciting game\bin\Debug\net6.0-windows\Eggciting game.exe
+C:\Users\harihar\source\repos\Eggciting game\Eggciting game\bin\Debug\net6.0-windows\Eggciting game.deps.json
+C:\Users\harihar\source\repos\Eggciting game\Eggciting game\bin\Debug\net6.0-windows\Eggciting game.runtimeconfig.json
+C:\Users\harihar\source\repos\Eggciting game\Eggciting game\bin\Debug\net6.0-windows\Eggciting game.dll
+C:\Users\harihar\source\repos\Eggciting game\Eggciting game\bin\Debug\net6.0-windows\Eggciting game.pdb
+C:\Users\harihar\source\repos\Eggciting game\Eggciting game\obj\Debug\net6.0-windows\Eggciting game.csproj.AssemblyReference.cache
+C:\Users\harihar\source\repos\Eggciting game\Eggciting game\obj\Debug\net6.0-windows\Eggciting_game.Form1.resources
+C:\Users\harihar\source\repos\Eggciting game\Eggciting game\obj\Debug\net6.0-windows\Eggciting_game.Properties.Resources.resources
+C:\Users\harihar\source\repos\Eggciting game\Eggciting game\obj\Debug\net6.0-windows\Eggciting game.csproj.GenerateResource.cache
+C:\Users\harihar\source\repos\Eggciting game\Eggciting game\obj\Debug\net6.0-windows\Eggciting game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harihar\source\repos\Eggciting game\Eggciting game\obj\Debug\net6.0-windows\Eggciting game.AssemblyInfoInputs.cache
+C:\Users\harihar\source\repos\Eggciting game\Eggciting game\obj\Debug\net6.0-windows\Eggciting game.AssemblyInfo.cs
+C:\Users\harihar\source\repos\Eggciting game\Eggciting game\obj\Debug\net6.0-windows\Eggciting game.csproj.CoreCompileInputs.cache
+C:\Users\harihar\source\repos\Eggciting game\Eggciting game\obj\Debug\net6.0-windows\Eggciting game.dll
+C:\Users\harihar\source\repos\Eggciting game\Eggciting game\obj\Debug\net6.0-windows\refint\Eggciting game.dll
+C:\Users\harihar\source\repos\Eggciting game\Eggciting game\obj\Debug\net6.0-windows\Eggciting game.pdb
+C:\Users\harihar\source\repos\Eggciting game\Eggciting game\obj\Debug\net6.0-windows\Eggciting game.genruntimeconfig.cache
+C:\Users\harihar\source\repos\Eggciting game\Eggciting game\obj\Debug\net6.0-windows\ref\Eggciting game.dll
